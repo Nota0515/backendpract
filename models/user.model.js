@@ -21,8 +21,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         unique: true,
         require: true,
-        lowercase: true,
-        minlength:[7,"Must be atleast 4character long"]
+        minlength:[3,"Must be atleast 4character long"]
     }
 })
 
